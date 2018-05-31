@@ -1,101 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-		<link rel="manifest" href="favicons/site.webmanifest">
-		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
-		<link rel="shortcut icon" href="favicons/favicon.ico">
-		<meta name="msapplication-TileColor" content="#2b5797">
-		<meta name="msapplication-config" content="favicons/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
-		<meta charset="utf-8">
-		<title>About Us | FRC 2898</title>
-<!-- 		<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
-		<script>
-		// Initialize Firebase
-		var config = {
-			apiKey: "AIzaSyD_zwLhU4qMKUjQn2RqExX2vjKcurh57JM",
-			authDomain: "frc2898.firebaseapp.com",
-			databaseURL: "https://frc2898.firebaseio.com",
-			projectId: "frc2898",
-			storageBucket: "frc2898.appspot.com",
-			messagingSenderId: "893767772783"
-		};
-		firebase.initializeApp(config);
-		</script>
-		<script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
-		<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" /> -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<script src="http://code.jquery.com/jquery.min.js"></script>
-		<script src="js/vegas/vegas.min.js"></script>
-		<link rel="stylesheet" href="js/vegas/vegas.min.css">
-		<link rel="stylesheet" href="css/skel.css" />
-		<link rel="stylesheet" href="css/style.css"/>
-	</head>
-	<body>
-		<!-- Header -->
-		<header id="header" class="skel-layers-fixed">
-			<div class="content">
-				<div class="three-quarters">
-						<a href="/2898/">
-							<img 
-							src="img/2898logo.png"
-							alt="2898 alt logo"
-							height="50"
-							width=auto></a>
-				</div>
-				<div class="one-quarter">
-				</div>
-				<br>
-				<nav class="whole-width">
-					<ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html" class="active">About</a></li>
-						<li><a href="robots.html">Robots</a></li>
-						<li><a href="awards.html">Awards</a></li>
-						<li><a href="community.html">Outreach</a></li>
-						<li><a href="sponsors.html">Sponsors</a></li>
-						<li><a href="students/index.html">Students</a></li>
-						<li><a href="../index.html">BPS Robotics</a></li>
-					</ul>
-				</nav>
+<head>
+	<link href="favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="76x76">
+	<link href="favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="favicons/site.webmanifest" rel="manifest">
+	<link href="favicons/safari-pinned-tab.svg" rel="mask-icon">
+	<link href="favicons/favicon.ico" rel="shortcut icon">
+	<meta content="#2b5797" name="msapplication-TileColor">
+	<meta content="favicons/browserconfig.xml" name="msapplication-config">
+	<meta content="#ffffff" name="theme-color">
+	<meta charset="utf-8">
+	<title>About Us | FRC 2898</title><!--        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+        <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyD_zwLhU4qMKUjQn2RqExX2vjKcurh57JM",
+            authDomain: "frc2898.firebaseapp.com",
+            databaseURL: "https://frc2898.firebaseio.com",
+            projectId: "frc2898",
+            storageBucket: "frc2898.appspot.com",
+            messagingSenderId: "893767772783"
+        };
+        firebase.initializeApp(config);
+        </script>
+        <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" /> -->
+
+	<script src="js/jquery.min.js">
+	</script>
+	<script src="js/skel.min.js">
+	</script>
+	<script src="js/skel-layers.min.js">
+	</script>
+	<script src="js/init.js">
+	</script>
+	<script src="http://code.jquery.com/jquery.min.js">
+	</script>
+	<script src="js/vegas/vegas.min.js">
+	</script>
+	<link href="js/vegas/vegas.min.css" rel="stylesheet">
+	<link href="css/skel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Header -->
+	<header class="skel-layers-fixed" id="header">
+		<div class="content">
+			<div class="three-quarters">
+				<a href="/2898/"><img alt="2898 alt logo" height="50" src="img/2898logo.png" width="auto"></a>
 			</div>
+			<div class="one-quarter"></div><br>
+			<nav class="whole-width">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="robots.html">Robots</a>
+					</li>
+					<li>
+						<a href="awards.html">Awards</a>
+					</li>
+					<li>
+						<a href="community.html">Outreach</a>
+					</li>
+					<li>
+						<a href="sponsors.html">Sponsors</a>
+					</li>
+					<li>
+						<a href="students/index.html">Students</a>
+					</li>
+					<li>
+						<a href="../index.html">BPS Robotics</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="wrapper style1" id="one">
+		<header class="major">
+			<h2>About our team</h2>
+			<p>lorum ipsum</p>
 		</header>
-		<section id="one" class="wrapper style1">
-			<header class="major">
-				<h2>About our team</h2>
-				<p></p>
-			</header>
-			<div class="container">
-				<div class="row">
-					<div class="4u">
-						<section class="special box">
-							<i class="icon fa-area-chart major"></i>
-							<h3>Justo placerat</h3>
-							<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-						</section>
-					</div>
-					<div class="4u">
-						<section class="special box">
-							<i class="icon fa-refresh major"></i>
-							<h3>Blandit quis curae</h3>
-							<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-						</section>
-					</div>
-					<div class="4u">
-						<section class="special box">
-							<i class="icon fa-cog major"></i>
-							<h3>Amet sed accumsan</h3>
-							<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-						</section>
-					</div>
-				</div>
+		<div class="container">
+			<div class="row">
+				<section class="special">
+					<img src="img/banner.jpg">
+				</section>
 			</div>
-		</section>
-	</body>
+		</div>
+	</section>
+</body>
 </html>

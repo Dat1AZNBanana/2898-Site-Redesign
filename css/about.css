@@ -1,0 +1,25 @@
+#logo{
+    width:35%;
+    float: right;
+    position: relative;
+}
+
+#discription{
+    text-align: left; 
+    align: left; 
+    padding-left: 10%; 
+    padding-right: 45%
+}
+
+#firstlogo{
+    width:35%;
+    float: left;
+    position: relative;
+}
+
+#first{
+    text-align: right; 
+    align: right; 
+    padding-left: 45%; 
+    padding-right: 10%
+}

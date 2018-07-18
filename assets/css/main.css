@@ -2061,9 +2061,9 @@ ul.icons {
   #banner.small {
     height: 30vh !important;
     min-height: 30vh; }
-  @media screen and (max-width: 1280px) {
+/*   @media screen and (max-width: 1280px) {
     #banner video {
-      display: none; } }
+      display: none; } } */
   @media screen and (max-width: 736px) {
     #banner {
       height: auto !important;

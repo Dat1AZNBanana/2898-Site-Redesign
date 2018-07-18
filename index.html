@@ -1,97 +1,206 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<link href="favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="76x76">
-	<link href="favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-	<link href="favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-	<link rel="manifest" href="manifest.json">
-	<link href="favicons/safari-pinned-tab.svg" rel="mask-icon">
-	<link href="favicons/favicon.ico" rel="shortcut icon">
-	<meta content="#2b5797" name="msapplication-TileColor">
-	<meta content="favicons/browserconfig.xml" name="msapplication-config">
-	<meta content="#ffffff" name="theme-color">
-	<meta charset="utf-8">
-	<title>FRC 2898</title>
-	<script src="js/jquery.min.js">
-	</script>
-	<script src="js/skel.min.js">
-	</script>
-	<script src="js/skel-layers.min.js">
-	</script>
-	<script src="js/init.js">
-	</script>
-	<script src="http://code.jquery.com/jquery.min.js">
-	</script>
-	<script src="js/vegas/vegas.min.js">
-	</script>		
-	<link href="js/vegas/vegas.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/index.css"/>
-        <link rel="stylesheet" href="css/skel.css"/>
-		<link rel="stylesheet" href="css/style.css"/>
- 
- 
-</head>
-<body>
-	<!-- Header -->
-	<header class="skel-layers-fixed" id="header">
-		<div class="content">
-			<div class="three-quarters">
-				<a href="/2898/"><img alt="2898 alt logo" height="50" src="img/2898logo.png"></a>
-			</div>
-			<div class="one-quarter"></div><br>
-			<nav id="nav">
-				<ul>
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="about.html">About</a>
-					</li>
-					<li>
-						<a href="robots.html">Robots</a>
-					</li>
-					<li>
-						<a href="awards.html">Awards</a>
-					</li>
-					<li>
-						<a href="community.html">Outreach</a>
-					</li>
-					<li>
-						<a href="sponsors.html">Sponsors</a>
-					</li>
-					<li>
-						<a href="students/index.html">Students</a>
-					</li>
-					<li>
-						<a href="../index.html">BPS Robotics</a>
-					</li>
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>FRC 2898 | The Flying Hedgehogs</title>
+		<link href="favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="76x76">
+		<link href="favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+		<link href="favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+		<link rel="manifest" href="manifest.json">
+		<link href="favicons/safari-pinned-tab.svg" rel="mask-icon">
+		<link href="favicons/favicon.ico" rel="shortcut icon">
+		<meta content="#2b5797" name="msapplication-TileColor">
+		<meta content="favicons/browserconfig.xml" name="msapplication-config">
+		<meta content="#ffffff" name="theme-color">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">FRC 2898</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="robots.html">Robots</a></li>
+					<li><a href="awards.html">Awards</a></li>
+					<li><a href="community.html">Outreach</a></li>
+					<li><a href="sponsors.html">Sponsors</a></li>
+					<li><a href="students/index.html">Students</a></li>
+					<li><a href="../index.html">BPS Robotics</a></li>
 				</ul>
 			</nav>
-		</div>
-	</header>
-	<section id="banner" class="wrapper style2">
-		<a href="/2898/"><img id="teamlogo" alt="2898 alt logo" src="img/2898logo.png"></a> 
-		<script>
-		      $("#banner").vegas({
-		                        delay: 7000,
-		                        transition: 'fade',
-		                        transitionDuration: 1000,
-		                        slides: [
-		                            { src: "img/slideshow/pic1.jpg" },
-		                            { src: "img/slideshow/pic2.jpg" },
-		                            { src: "img/slideshow/pic3.jpg" },
-		                            { src: "img/slideshow/pic4.jpg" }
-		                        ],
-		                        overlay: '/js/vegas/dist/overlays/04.png'
-		                    });
-		</script>
-	</section>
-	<script>
-		if('serviceWorker' in navigator) {
-		  navigator.serviceWorker
-				   .register('sw.js')
-				   .then(function() { console.log("Service Worker Registered"); });
-		}
-		</script>
-</body>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<img src="images/2898logo.png">
+					<h2 id="home">The Flying Hedgehogs</h2>
+				</div>
+				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+			</section>
+
+		<!-- Highlights -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Who Are the flying hedgehogs?</h2>
+						<p></p>
+					</header>
+					<div class="highlights">
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-wrench"><span class="label">Icon</span></a>
+									<h3>Mechanical</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-terminal"><span class="label">Icon</span></a>
+									<h3>Programming</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-bolt"><span class="label">Icon</span></a>
+									<h3>Electrical</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-desktop"><span class="label">Icon</span></a>
+									<h3>Design</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-briefcase"><span class="label">Icon</span></a>
+									<h3>Business</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a href="#" class="icon fa-camera"><span class="label">Icon</span></a>
+									<h3>Media</h3>
+								</header>
+								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- CTA -->
+			<section id="cta" class="wrapper">
+				<div class="inner">
+					<h2>Join Us	Today</h2>
+					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+				</div>
+			</section>
+
+		<!-- Testimonials -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>A Huge Thanks to our Sponsors</h2>
+					</header>
+					<div class="testimonials">
+						<section>
+							<div class="content">
+								<div class="author">
+									<img src="images/sponsors/intel.png" alt="" />
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<div class="author">
+									<img src="images/sponsors/lam-research.png" alt="" />
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<div class="author">
+									<img src="images/sponsors/nvidia.png" alt="" />
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+							<h3>Contact Us</h3>
+							<p>Email Us At: <a href="mailto:bpsrobotics.first@gmail.com">bpsrobotics.first@gmail.com</a></p>
+						</section>
+						<section>
+							<h4>Our Teams and Programs</h4>
+							<ul class="alt">
+								<li><a href="#">FRC 2898</a></li>
+								<li><a href="#">FRC 1510</a></li>
+								<li><a href="#">FRC 5970</a></li>
+								<li><a href="#">Spark Academy</a></li>
+							</ul>
+						</section>
+						<section>
+							<h4>Social Media</h4>
+							<ul class="plain">
+								<li><a href="https://twitter.com/frc2898"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="https://www.facebook.com/theflyinghedgehogs/"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="https://www.instagram.com/frc2898/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+								<li><a href="https://github.com/bpsrobotics"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+								<li><a href="https://github.com/bpsrobotics"><i class="icon fa-youtube">&nbsp;</i>YouTube</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						&copy; Templated . Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>

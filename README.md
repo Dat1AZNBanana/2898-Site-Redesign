@@ -1,3 +1,5 @@
 # 2898-Site-Redesign
-The homepage for FRC Team 2898
- 
+The 2018 revision of the FRC 2898 The Flying Hedgehogs website
+
+Template is Industrious by Templated
+Revamp by Micah Griffin

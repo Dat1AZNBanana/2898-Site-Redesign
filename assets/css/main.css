@@ -1,7 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600");
 @import url(http://allfont.net/allfont.css?fonts=agency-fb);
-  @import url(http://allfont.net/allfont.css?fonts=agency-fb-bold);
 /*
 	Industrious by TEMPLATED
 	templated.co @templatedco
@@ -1759,7 +1758,8 @@ ul.icons {
   border-radius: 6px;
   border: 0;
   display: inline-block;
-  position: relative; }
+  position: relative; 
+}
   .image img {
     border-radius: 6px;
     display: block; }
@@ -1814,6 +1814,16 @@ ul.icons {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
+  .image.svg{
+    width: 25%;
+}
+@media screen and (max-width: 736px) {
+  .image.svg {
+    width: 55%;
+  }
+  
+}
+
   
 
 /* Wrapper */
@@ -2061,10 +2071,16 @@ ul.icons {
   #banner.small {
     height: 30vh !important;
     min-height: 30vh; }
-/*   @media screen and (max-width: 1280px) {
+  .bannerh2{
+    display:block;
+  }
+  .bannerh3{
+    display:none;
+  }
+  @media screen and (max-width: 1280px){
     #banner video {
-      display: none; } } */
-  @media screen and (max-width: 736px) {
+      display: initial; } }
+  @media screen and (max-width: 736px){
     #banner {
       height: auto !important;
       min-height: 0;
@@ -2083,7 +2099,13 @@ ul.icons {
         width: 100%; } }
   @media screen and (max-width: 480px) {
     #banner p {
-      font-size: 1rem; } }
+      font-size: 1rem; }   
+    .bannerh2{
+      display: none;
+    }
+    .bannerh3{
+      display: block;
+    }}
   body.is-preload #banner .inner {
     -moz-transform: scale(0.99);
     -webkit-transform: scale(0.99);
@@ -2092,6 +2114,7 @@ ul.icons {
     opacity: 0; }
   body.is-preload #banner:before {
     opacity: 1; }
+
 
 /* CTA */
 #cta {

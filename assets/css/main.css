@@ -1824,8 +1824,7 @@ ul.icons {
   
 }
 
-  
-
+ 
 /* Wrapper */
 .wrapper {
   padding: 8rem 0 6rem 0 ;
@@ -2761,7 +2760,7 @@ body {
   #menu input, #menu select, #menu textarea {
     color: #ffffff; }
   #menu a {
-    color: #ce1b28; }
+    color: #3d96e0; }
   #menu strong, #menu b {
     color: #ffffff; }
   #menu h1, #menu h2, #menu h3, #menu h4, #menu h5, #menu h6 {
@@ -2786,8 +2785,8 @@ body {
     #menu input[type="button"]:hover,
     #menu button:hover,
     #menu .button:hover {
-      box-shadow: inset 0 0 0 1px #ce1b28;
-      color: #ce1b28 !important; }
+      box-shadow: inset 0 0 0 1px #3d96e0;
+      color: #3d96e0 !important; }
       #menu input[type="submit"]:hover:active,
       #menu input[type="reset"]:hover:active,
       #menu input[type="button"]:hover:active,
@@ -2800,7 +2799,7 @@ body {
     #menu button.primary,
     #menu .button.primary {
       box-shadow: none;
-      background-color: #ce1b28;
+      background-color: #3d96e0;
       color: #ffffff !important; }
       #menu input[type="submit"].primary:hover,
       #menu input[type="reset"].primary:hover,
@@ -2865,6 +2864,44 @@ body {
       font-size: 1.25rem; }
     #menu .close:hover {
       color: #ffffff; }
+
+/* Dropdown Button */
+#menu > ul.links > li > .dropbtn:hover {
+  display:none;}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #111111;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}   
+ 
     @media screen and (max-width: 736px) {
       #menu .close {
         height: 4rem;

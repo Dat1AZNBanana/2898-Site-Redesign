@@ -1,0 +1,10 @@
+For True False Questions
+								<br>
+								<div class="col-4 col-12-small">
+										<input id="Q2S1" value="a" name="question2" type="radio">
+										<label for="Q2S1">A. True</label>
+									</div>
+							<div class="col-4 col-12-small">
+									<input id="Q2S2" value="b" name="question2" type="radio">
+									<label for="Q2S2">B. False</label>
+								</div>

@@ -21,10 +21,10 @@ For True False Questions
 									<label for="Q3S2">B. Understanding how it operates.</label>
 								</div>
 								<div class="col-4 col-12-small">
-										<input id="Q3S3" value="a" name="question3" type="radio">
+										<input id="Q3S3" value="c" name="question3" type="radio">
 										<label for="Q3S3">C. Having teachers permission.</label>
 									</div>
 							<div class="col-4 col-12-small">
-									<input id="Q3S4" value="b" name="question3" type="radio">
+									<input id="Q3S4" value="d" name="question3" type="radio">
 									<label for="Q3S4">D. All of the above are correct.</label>
 								</div>
